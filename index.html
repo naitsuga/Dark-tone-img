@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Tone Photo Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="editor-container">
+        <h1>Dark Tone Photo Editor</h1>
+        <p>Unggah fotomu dan atur efeknya secara manual.</p>
+        
+        <canvas id="canvas"></canvas>
+
+        <div id="slidersContainer" class="sliders-container hidden">
+            <div class="slider-group">
+                <label for="grayscaleSlider">Grayscale</label>
+                <input type="range" id="grayscaleSlider" min="0" max="100" value="0">
+                <span id="grayscaleValue">0</span>%
+            </div>
+            <div class="slider-group">
+                <label for="contrastSlider">Contrast</label>
+                <input type="range" id="contrastSlider" min="0" max="300" value="100">
+                <span id="contrastValue">100</span>%
+            </div>
+            <div class="slider-group">
+                <label for="brightnessSlider">Brightness</label>
+                <input type="range" id="brightnessSlider" min="0" max="200" value="100">
+                <span id="brightnessValue">100</span>%
+            </div>
+        </div>
+
+        <div class="controls">
+            <label for="fileInput" class="upload-btn">Pilih Gambar</label>
+            <input type="file" id="fileInput" accept="image/*">
+            <button id="applyBtn" disabled>Terapkan Efek Awal</button>
+            <button id="resetBtn" disabled>Reset</button>
+        </div>
+
+        <a id="downloadBtn" class="download-btn-hidden">Unduh Gambar</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+Aman kak.
