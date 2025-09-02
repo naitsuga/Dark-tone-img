@@ -17,9 +17,7 @@ Suasana Puitis dan Misterius: Suasana ini dibangun melalui manipulasi warna yang
 
 //=================================================================================================================================================================================
 
-Tentu, ini adalah terjemahan lengkap dari teks tersebut ke dalam Bahasa Inggris.
 
----
 
 ### **DARK TONE IMAGE 
 
